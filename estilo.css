@@ -1,0 +1,115 @@
+#conteudo {
+    width: 80%;
+    text-align: center;
+    background-color: #eee;
+    font-family: tahoma,arial,verdana;
+}
+#conteudo A{
+    text-decoration: none;
+    color: #2b70d8;
+    font-weight:bold;
+}
+#conteudo A:hover{
+    text-decoration: underline;
+}
+
+#disclaimer {
+    clear: both;
+    font-size: 8pt;
+    color: #888;
+    padding: 10px;
+    text-align: center;
+}
+
+.language {
+    text-align: right;
+    float: rigth;
+    font-size: 9pt;
+    background-color: #fff;
+}
+
+.list_no_dot {
+    list-style-type: none;
+    padding-left: -10px;
+}
+
+/******* Publications *******/
+#publication {
+    float: none;
+    //line-height: 10px;
+    padding-left: 10;
+}
+  
+#publication .title {
+    /*font-style: italic;*/
+    font-family: Arial;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+#publication .authors {
+    color: #555;
+    padding-bottom: 4px;
+    line-height: 18px;
+}
+
+#publication .conf{
+    line-height: 18px;
+    color: #555;
+    padding-bottom: 10px;
+}
+
+#publication .abstract , .abstract{
+    display: none;
+    font-size: 10pt;
+    text-align: justify;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #000;
+    line-height: 18px;
+}
+
+#publication .abstract_inactive {
+    background-color:#fff;
+}
+#publication .abstract_active, .abstract_active{
+    background-color:#fff;
+}
+
+.publication_legend {
+    font-size: 9pt;
+}
+
+.conference {
+    border-left:8px solid #bbb;
+}
+
+.journal {
+    border-left:8px solid #2b70d8;
+}
+
+.me {
+    color: #2b70d8;
+}
+
+
+/******* News *******/
+#news {
+    float: none;
+    padding-left: 10;
+}
+
+#news .date {
+    font-family: Arial;
+    font-size: 9pt;
+}
+  
+#news .title {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#news .content {
+    font-family: Arial;
+    padding-bottom: 8px;
+}

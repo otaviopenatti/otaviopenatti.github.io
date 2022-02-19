@@ -1,0 +1,223 @@
+
+/******* Config Bloco1 *******/
+#bloco1 {
+    padding: 0px 0px 10px 0px;
+    float: left;
+    width: 200px;
+  }
+#bloco1 .top-left, #bloco1 .top-right, #bloco1 .bottom-left, #bloco1 .bottom-right { 
+    background-image: url('images/corners1280x18_orange.gif');
+    height: 9px;
+    font-size: 2px;
+    }
+
+#bloco1 .inside {
+    background-color: #ff9900;
+    color: #fff;
+    border-left: 1px solid #ff9900;
+    border-right: 1px solid #ff9900;
+    padding-left: 10px;             
+    padding-right:10px;             
+}
+/******* Config Bloco1 *******/
+
+
+/******* Config Bloco2 *******/
+#bloco2 {
+    padding: 0px 0px 0px 20px;
+    width: 90%; 
+    /*float: left;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+  }
+#bloco2 .top-left, #bloco2 .top-right, #bloco2 .bottom-left, #bloco2 .bottom-right { 
+    background-image: url('images/corners1280x18_white.gif');
+    height: 9px;
+    font-size: 2px;
+    }
+#bloco2 .inside {
+    background-color: #fff;
+    color: #000;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding-left: 20px;             
+    padding-right:10px;             
+    text-align: left;
+    font-family: Tahoma,Verdana,Arial;
+    /*width: 100%;*/
+}
+#bloco2 .inside_center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/******* Config Bloco2 *******/
+
+
+/******* Configura&ccedil;&otilde;es do Bloco3 *******/
+#bloco3 {
+    padding: 0px 0px 0px 5px;
+    float: left;
+    /*width: 160px;*/
+    width: 100%;
+
+  }
+#bloco3 .top-left, #bloco3 .top-right, #bloco3 .bottom-left, #bloco3 .bottom-right { 
+    background-image: url('images/corners1280x18_blue.gif');
+    height: 9px;
+    font-size: 2px;
+    }
+#bloco3 .inside {
+    background-color: #2b70d8;
+    color: #fff;
+    border-left: 1px solid #2b70d8;
+    border-right: 1px solid #2b70d8;
+    padding-left: 10px;             
+    padding-right:10px;             
+    text-align: left;
+}
+#bloco3 .inside A {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+#bloco3 .inside A:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+#bloco3 .inside ul {
+    /*list-style-type: ball;*/
+    /*list-style-position: outside;*/
+    /*list-style-image: url(arrow.gif);*/
+    line-height: 30px;
+}
+
+/******* Configura&ccedil;&otilde;es do Bloco3 *******/
+
+/******* Configura&ccedil;&otilde;es do Bloco4 *******/
+#bloco4 {
+    padding: 0px 0px 10px 5px;
+    float: right;
+    width: 170px; 
+  }
+/******* Configura&ccedil;&otilde;es do Bloco4 *******/
+
+/******* Configura&ccedil;&otilde;es do Bloco5 *******/
+#bloco5 {
+    padding: 0px 0px 10px 5px;
+    float: right;
+    width: 170px; 
+  }
+#bloco5 .top-left, #bloco5 .top-right, #bloco5 .bottom-left, #bloco5 .bottom-right { 
+    background-image: url('images/corners1280x18_red.gif');
+    height: 9px;
+    font-size: 2px;
+    }
+#bloco5 .inside {
+    background-color: #e61600;
+    color: #fff;
+    border-left: 1px solid #e61600;
+    border-right: 1px solid #e61600;
+    padding-left: 10px;             
+    padding-right:10px;             
+}
+
+/******* Configura&ccedil;&otilde;es do Bloco5 *******/
+
+
+
+
+/******* Configura&ccedil;&otilde;es do bloco6 *******/
+#bloco6 {
+    padding: 40px 0px 0px 5px;
+    float: left; 
+    clear: left;
+    /*width: 160px; */
+    width: 100%;
+  }
+#bloco6 .top-left, #bloco6 .top-right, #bloco6 .bottom-left, #bloco6 .bottom-right { 
+    background-image: url('images/corners1280x18_orange.gif');
+    height: 9px;
+    font-size: 2px;
+    }
+#bloco6 .inside {
+    background-color: #ff9900;
+    color: #fff;
+    border-left: 1px solid #ff9900;
+    border-right: 1px solid #ff9900;
+    padding-left: 5px;
+    padding-right:10px;
+
+}
+#bloco6 .inside A {
+    color: #fff;
+    text-decoration: none;
+}
+#bloco6 .inside A:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/******* Configura&ccedil;&otilde;es do bloco6 *******/
+
+
+
+/******* Configura&ccedil;&otilde;es do bloco7 *******/
+#bloco7 {
+    padding: 0px 0px 20px 5px;
+    float: none;
+    width: 60%;
+    horizontal-align: center;
+  }
+#bloco7 .top-left, #bloco7 .top-right, #bloco7 .bottom-left, #bloco7 .bottom-right { 
+    background-image: url('images/corners1280x18_gray.gif');
+    height: 9px;
+    font-size: 2px;
+    }
+#bloco7 .inside {
+    background-color: #c5c5c5;
+    color: #000;
+    border-left: 1px solid #c5c5c5;
+    border-right: 1px solid #c5c5c5;
+    padding-left: 10px;             
+    padding-right:10px;             
+}
+/******* Configura&ccedil;&otilde;es do bloco7 *******/
+
+
+/******* Configura&ccedil;&otilde;es do bloco_free *******/
+#bloco_free {
+    padding: 0px 0px 10px 0px;
+    width: 200px; 
+    float: left;
+  }
+#bloco_free .top-left, #bloco_free .top-right, #bloco_free .bottom-left, #bloco_free .bottom-right { 
+    background-image: url('images/corners1280x18_green.gif');
+    height: 9px;
+    font-size: 2px;
+    }
+#bloco_free .inside {
+    background-color: #428134;
+    color: #fff;
+    border-left: 1px solid #428134;
+    border-right: 1px solid #428134;
+    padding-left: 10px;             
+    padding-right:10px;             
+}
+/******* Configura&ccedil;&otilde;es do bloco_free *******/
+
+#sidebar {
+    padding: 0px 0px 0px 0px;
+    float: left;
+    width: 150px;
+  }
+
+#sidebar2 {
+    padding: 0px 0px 0px 0px;
+    float: right;
+    width: 170px;
+  }
+
