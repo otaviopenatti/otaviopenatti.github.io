@@ -96,7 +96,7 @@
 /******* Icons ******/
 .icon_session { /*icons for page sessions*/
     height: 22px;    
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .icon_external { /*icons for external pages; i.e., linkedin, github */
